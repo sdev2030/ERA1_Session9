@@ -14,7 +14,7 @@
             3. coarseDropout (max_holes = 1, max_height=16px, max_width=16px, min_holes = 1, min_height=16px, min_width=1px, fill_value=(mean of your dataset), mask_fill_value = None) 
         7. achieve 85% accuracy, as many epochs as you want. Total Params to be less than 200k. 
 
-## Solution - Notebook [s9_assignment](https://github.com/sdev2030/ERA1_Session9/s9_assignment.ipynb)
+## Solution - Notebook [s9_assignment](https://github.com/sdev2030/ERA1_Session9/blob/main/s9_assignment.ipynb)
 In this we will use Depthwise separable convolution layer and dilated convolution layer instead of Max Pooling or strided convolution to achieve target test accuracy of more than 85% from the 25th epoch.
 
 Following are the model parameter, train and test accuracies achieved in training the model for 30 epochs.
